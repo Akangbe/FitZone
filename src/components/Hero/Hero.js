@@ -5,6 +5,7 @@ import Header from "../Header/Header.jsx";
 // import Heart from ""
 import Heart from "../../assets/heart.png";
 import hero_image_back from "../../assets/hero_image_back.png";
+import hero_imagemain from "../../assets/heromain.png";
 import hero_image from "../../assets/hero_image.png";
 import calories from "../../assets/calories.png";
 
@@ -63,8 +64,9 @@ const Hero = () => {
           <span>Heart rate</span>
           <span>116pbm</span>
         </div>
-        <img src={hero_image_back} className="hero_image_black" alt="" />
-        <img src={hero_image} className="hero_image" alt="" />
+        {/* <img src={hero_image_back} className="hero_image-back" alt="" /> */}
+        {/* <img src={hero_image} className="hero_image" alt="" /> */}
+        <img src={hero_imagemain} className="hero_image" alt="" />
 
         {/* <img></img> */}
       </div>
