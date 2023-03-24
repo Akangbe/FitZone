@@ -21,9 +21,10 @@ const program = () => {
 {program.image} 
 <span >{program.heading}</span>
 <span >{program.details}</span>
-{/* <div><div> */}
+<div></div>
 </div>
       ))}
+
      </div>
     </div>
   );
