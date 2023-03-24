@@ -144,14 +144,23 @@ background-color: var(--orange);
     top: 4rem;
     right: 23rem;
 }
-.calories{
+/* .calories{
     display: flex;
     gap: 2rem;
     background-color: var(--caloryCard);
     border-radius: 5px;
     padding: 1rem;
+    position: absolute;
     top: 32rem;
-    right: 26rem;
+    right: 28rem;
+    width: fit-content;
     
 }
-/* .calories> */
+.calories>img{
+    width: 3rem;
+}
+.calories>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
