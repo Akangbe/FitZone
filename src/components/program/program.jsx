@@ -19,7 +19,7 @@ const program = () => {
         <div className="category" >
 
 {program.image} 
-<span >{program.heading}.</span>
+<span >{program.heading}</span>
 <span >{program.details}</span>
 {/* <div><div> */}
 </div>
