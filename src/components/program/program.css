@@ -1,0 +1,19 @@
+.programs{
+    display: flex;
+    /* color: white; */
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+    /* margin-top: 1rem; */
+}
+.programs-header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 2.7rem;
+    justify-self: center;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 3rem;
+
+}
