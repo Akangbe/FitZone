@@ -48,4 +48,12 @@ gap: 1rem;
     align-items: center;
     gap: 2rem;
 }
- 
+.join-now>img{
+    width: 1rem;
+}
+.category:hover{
+    background: var(--planCard);
+    /* background-color: ; */
+    /* background-color: var(--planCard); */
+    /* background:  linear-gradient(210deg, #f44336, #ff9800); */
+}
