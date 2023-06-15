@@ -5,6 +5,7 @@ import Hero from "../src/components/Hero/Hero";
 import Programs from "./components/program/program";
 // import Reasons from "./components/Process/reasons";
 import Reason from "./components/Process/Reason";
+import Plans from "./components/Plans/plans";
 // ("../src/components/program/program");
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <span style={{ color: "white" }}>
         <Hero />
         <Programs />
-        {/* <Reasons /> */}
         <Reason />
+        <Plans />
       </span>
     </div>
   );
