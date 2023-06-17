@@ -26,7 +26,7 @@ function Reason() {
         </div>
         <div className="details-r">
           <div>
-            <img src={tick} alt=""></img>
+            <img src={tick} alt="mark"></img>
             <span>100+ Expert Coauch</span>
           </div>
           <div>
