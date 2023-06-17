@@ -10,7 +10,6 @@ function plans(props) {
         <span className="stroke-text">Your Journey</span>
         <span>Now within us</span>
       </div>
-    
 
       <div className="plans">
         {plansData.map((plan, i) => (
@@ -25,7 +24,12 @@ function plans(props) {
                   <span key={i}>{features}</span>
                 </div>
               ))}
-            </div>
+         </div>
+              <div>
+                <span>see more benefits </span>
+              </div>
+           
+              <button className="btn">Join Now </button>
           </div>
         ))}
       </div>
