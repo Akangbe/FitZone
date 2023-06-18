@@ -6,6 +6,7 @@ import Programs from "./components/program/program";
 // import Reasons from "./components/Process/reasons";
 import Reason from "./components/Process/Reason";
 import Plans from "./components/Plans/plans";
+import Testimonial from "./components/Testimonial/Testimonial";
 // ("../src/components/program/program");
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Programs />
         <Reason />
         <Plans />
+        <Testimonial />
       </span>
     </div>
   );
