@@ -19,7 +19,9 @@ const Testimonial = ()=> {
         </span>
         {testimonialsData[selected].status}
       </div>
-      <div className="right-t"></div>
+      <div className="right-t">
+        <img src={testimonialsData[selected].image} alt="" srcset="" />
+      </div>
     </div>
   );
 }
