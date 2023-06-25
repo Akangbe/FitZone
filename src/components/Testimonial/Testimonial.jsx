@@ -22,7 +22,7 @@ const Testimonial = ()=> {
       <div className="right-t">
         <img src={testimonialsData[selected].image} alt="" srcset="" />
         <div className="arrow">
-          <img src={left} alt="" />
+          {/* <img src={left} alt="" /> */}
         </div>
       </div>
     </div>
