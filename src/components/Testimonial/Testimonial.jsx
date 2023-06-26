@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Testimonial.css"
 import { testimonialsData } from "../../data/testimonialsData";
+import "../../assets/leftArrow.png"
 const Testimonial = ()=> {
 
   const [selected, Setselected]=useState(0)
@@ -22,7 +23,7 @@ const Testimonial = ()=> {
       <div className="right-t">
         <img src={testimonialsData[selected].image} alt="" srcset="" />
         <div className="arrow">
-          {/* <img src={left} alt="" /> */}
+          <img src={left} alt="" />
         </div>
       </div>
     </div>
