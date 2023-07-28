@@ -10,12 +10,13 @@ const Footer = () => {
       <hr />
       <div className="footer">
         <div className="social-links">
-        <img src={Github} alt={Github} />
-        <img src={Instagram} alt="instagram" />
-        <img src={Linkedln} alt="linkdln" />
-
+          <img src={Github} alt={Github} />
+          <img src={Instagram} alt="instagram" />
+          <img src={Linkedln} alt="linkdln" />
         </div>
       </div>
+      <div className="blur blur-f-1"></div>
+      <div className="blur blur-f-2" ></div>
     </div>
   );
 };

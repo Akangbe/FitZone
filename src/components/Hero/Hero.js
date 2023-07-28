@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import "../Header/Header.jsx";
+import { motion } from "framer-motion";
 import Header from "../Header/Header.jsx";
 // import Heart from ""
 import Heart from "../../assets/heart.png";
@@ -8,15 +9,31 @@ import hero_image_back from "../../assets/hero_image_back.png";
 import hero_imagemain from "../../assets/heromain.png";
 import hero_image from "../../assets/hero_image.png";
 import calories from "../../assets/calories.png";
+import { type } from "os";
 
 const Hero = () => {
+  const transition = {
+    type: "spring",
+    duration: 3,
+  };
   return (
     <div className="hero">
       <div className="blur hero-blur"></div>
       <div className="left-hero">
         <Header />
         <div className="the-best-ads">
-          <div></div>
+          {/* <motion.div
+            initial={{ left: "230px" }}
+            whileInView={{ left: "8px" }}
+            // transition={{...transition, type="tween"}}
+            transition={{ transition, type: "tween" }}
+          ></motion.div> */}
+          <motion.div
+            initial={{ left: "230px" }}
+            whileInView={{ left: "8px" }}
+            transition={{ ...transition, type: "tween" }}
+          ></motion.div>
+
           <span>the best Gym in the Town</span>
         </div>
         <div>

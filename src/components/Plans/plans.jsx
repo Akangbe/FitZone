@@ -5,6 +5,8 @@ import "./plan.css";
 function plans(props) {
   return (
     <div className="plans-container">
+      <div className="blur planblur-1" ></div>
+      <div className="blur planblur-2"></div>
       <div className="programs-header">
         <span>Ready To start</span>
         <span className="stroke-text">Your Journey</span>

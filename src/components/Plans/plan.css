@@ -6,7 +6,19 @@
   gap: 4rem;
   position: relative;
 }
+.planblur-1{
+  width: 32rem;
+  height: 23rem;
+  top: 6rem;
+  left: 0;
+}
+.planblur-2{
+  width: 32rem;
+  height: 23rem;
+  top: 10rem;
+  right: 0rem;
 
+}
 .plans {
   display: flex;
   gap: 3rem;
