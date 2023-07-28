@@ -15,17 +15,27 @@ const Testimonial = ()=> {
         <span>Say about us</span>
         <span>
           {testimonialsData[0].review}
-        </span>
+       
         <span style={{color: "var(--orange"}}>
           {testimonialsData[selected].name}
+        </span>{" "}
+        -{testimonialsData[selected].status}
         </span>
-        {testimonialsData[selected].status}
       </div>
       <div className="right-t">
+        <div></div>
+        <div></div>
         <img src={testimonialsData[selected].image} alt="" srcset="" />
         <div className="arrows">
-          <img src={left} alt="" />
-          <img src={right} alt="" />
+          <img 
+          onClick={()=>{
+            selected===0 ? Setselected(tLength-1) :Setselected((prev)=>prev-1)
+          }} src={left} alt="" />
+          <img 
+          onClick={()=>{
+            selected===tLength -1 ? selected(0):Setselected((prev)=>prev+1)
+          }}
+          src={right} alt="" />
         </div>
       </div>
     </div>

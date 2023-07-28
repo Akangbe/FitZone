@@ -7,6 +7,8 @@ import Programs from "./components/program/program";
 import Reason from "./components/Process/Reason";
 import Plans from "./components/Plans/plans";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Join from "./components/Join/Join";
+import Footer from "./components/Footer/Footer";
 // ("../src/components/program/program");
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Reason />
         <Plans />
         <Testimonial />
+        <Join />
+        <Footer />
       </span>
     </div>
   );

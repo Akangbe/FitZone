@@ -2,6 +2,7 @@
     display: flex;
     gap: 1rem;
     padding: 0 2rem;
+    margin-top: 8rem;
 }
 .left-t{
     display: flex;
@@ -33,4 +34,40 @@
     flex: 1;
     position: relative;
 
+}
+.right-t>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    right: 8rem;
+    top: 2rem;
+}
+.right-t>:nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid orange;
+    background-color:transparent ;
+    right: 9rem;
+    top: 0.9rem;
+}
+.right-t>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    top: 4rem;
+    right: 7rem;
+    background: var(--planCard);
+    /* background-color: yellow; */
+}
+.arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom:  1rem;
+    left: 3rem;
+}
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
 }
