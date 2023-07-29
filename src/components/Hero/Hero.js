@@ -9,7 +9,6 @@ import hero_image_back from "../../assets/hero_image_back.png";
 import hero_imagemain from "../../assets/heromain.png";
 import hero_image from "../../assets/hero_image.png";
 import calories from "../../assets/calories.png";
-import { type } from "os";
 
 const Hero = () => {
   const transition = {
@@ -22,25 +21,23 @@ const Hero = () => {
       <div className="left-hero">
         <Header />
         <div className="the-best-ads">
-          {/* <motion.div
-            initial={{ left: "230px" }}
-            whileInView={{ left: "8px" }}
-            // transition={{...transition, type="tween"}}
-            transition={{ transition, type: "tween" }}
-          ></motion.div> */}
           <motion.div
             initial={{ left: "230px" }}
             whileInView={{ left: "8px" }}
-            transition={{ ...transition, type: "tween" }}
+            // transition={{...transition, type="tween"}}
+            // transition={{ ...transition, type: "tween" }}
+
+            animate={{ pathLength: 1 }}
+            transition={{ duration: 2, type: "tween" }}
           ></motion.div>
 
-          <span>the best Gym in the Town</span>
+          <span>the best fitness Gym in the Town</span>
         </div>
         <div>
           <div className="hero-text">
             <span className="stroke-text">Achieve The </span>
             <span>Body </span>
-            <span>That You desire</span>
+            <span>You desire</span>
             <div className="span-text">
               <span className="">
                 In order to achieve the desired body shape, it is important to
@@ -77,11 +74,16 @@ const Hero = () => {
       <div className="right-hero">
         <button className="btn">Join Now</button>
 
-        <div className="heart-rate">
+        <motion.div
+          initial={{ right: "-1rem" }}
+          whileInView={{ right: "4rem" }}
+          transition={transition}
+          className="heart-rate"
+        >
           <img src={Heart} alt="" />
           <span>Heart rate</span>
           <span>121 bpm</span>
-        </div>
+        </motion.div>
         {/* Hero image */}
         <img src={hero_imagemain} className="hero_image" alt="" />
         {/* calories */}
