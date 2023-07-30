@@ -20,7 +20,9 @@ const Testimonial = () => {
             <span style={{ color: "var(--orange" }}>
               {testimonialsData[selected].name}
             </span>
-            <div style={{ "margin-top": "-.6rem", "margin-bottom": "1.8rem" }}>
+            <div
+            //  style={{ "margin-top": "-.6rem", "margin-bottom": "1.8rem" }}
+             >
               {" "}
               -{testimonialsData[selected].status}
             </div>
@@ -28,12 +30,8 @@ const Testimonial = () => {
         </span>
       </div>
       <div className="right-t">
-        <div
-          
-        ></div>
-         <div
-         
-        ></div>
+        <div></div>
+        <div></div>
         <img src={testimonialsData[selected].image} alt="" srcset="" />
         <div className="arrows">
           <img

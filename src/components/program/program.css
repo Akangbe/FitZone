@@ -56,4 +56,20 @@ gap: 1rem;
     /* background-color: ; */
     /* background-color: var(--planCard); */
     /* background:  linear-gradient(210deg, #f44336, #ff9800);   */
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+.programs-header{
+    flex-direction: column;
+    gap: 1px;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}  
+.program-categories{
+    flex-direction: column;
+}  
+
 }
