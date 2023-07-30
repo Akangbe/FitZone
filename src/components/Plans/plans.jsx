@@ -4,7 +4,7 @@ import whiteTick from "../../assets/whiteTick.png";
 import "./plan.css";
 function plans(props) {
   return (
-    <div className="plans-container">
+    <div className="plans-container" id="Plan">
       <div className="blur planblur-1" ></div>
       <div className="blur planblur-2"></div>
       <div className="programs-header">

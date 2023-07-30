@@ -1,6 +1,6 @@
 .join{
     display: flex;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     gap: 15rem;
     
 }
@@ -16,7 +16,7 @@
     width: 10.5rem;
     border: 2px solid var(--orange);
     border-radius: 20%;
-    margin: -10px 1rem;
+    margin: -8px 1.5rem;
 }
 .left-j>div{
     display: flex;

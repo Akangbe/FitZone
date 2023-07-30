@@ -2,7 +2,7 @@ import React from "react";
 import "./join.css";
 const Join = () => {
   return (
-    <div className="join" id="join-us">
+    <div className="join" id="About">
       <div className="left-j">
         <hr />
         <div>

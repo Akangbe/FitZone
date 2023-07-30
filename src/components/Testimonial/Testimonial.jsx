@@ -9,7 +9,7 @@ const Testimonial = () => {
   const [selected, Setselected] = useState(0);
   const tLength = testimonialsData.length;
   return (
-    <div className="Testimonial">
+    <div className="Testimonial" id="Testimonial">
       <div className="left-t">
         <span>Testimonial</span>
         <span className="stroke-text">Why should choose us</span>
@@ -42,6 +42,7 @@ const Testimonial = () => {
             }}
             src={left}
             alt=""
+            className="f-arrow"
           />
           <img
             onClick={() => {

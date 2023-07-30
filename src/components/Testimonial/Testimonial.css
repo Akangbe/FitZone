@@ -104,5 +104,11 @@
     left: 0;
     gap: 2rem;
   }
- 
+  .arrows{
+    margin-bottom: 1.5rem;
+    padding-left: 10px;
+  }
+ .f-arrow{
+    padding-right: 10px;
+ }
 }
