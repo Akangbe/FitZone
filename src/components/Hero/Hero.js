@@ -40,14 +40,14 @@ const Hero = () => {
             <span>You desire</span>
             <div className="span-text">
               <span className="">
-                In order to achieve the desired body shape, it is important to
+                {/* In order to achieve the desired body shape, it is important to
                 establish a consistent exercise routine that targets specific
                 muscle groups and helps to burn excess body fat. This can
                 include activities such as weightlifting, cardio exercises, and
                 high-intensity interval training (HIIT). Additionally, it is
                 important to maintain a balanced and nutritious diet that
                 provides the body with the necessary nutrients for optimal
-                health and fitness.
+                health and fitness. */}
               </span>
             </div>
           </div>
